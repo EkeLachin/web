@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title> FORMLAR </title>
+
+</head>
+
+<body>
+
+    <h1> Form Olurşturma Sayfası </h1>
+
+    <form>
+
+        <hr>
+
+        <b>KULLANICI: </b><input type="text" name="kullanici" /></br></br>
+
+        <b>PAROLA : </b><input type="password" name=sifre /></br></br>
+
+        <b><input type="radio" name="cinsiyet" value="erkek" checked="on">Erkek
+
+            <input type="radio" name="cinsiyet" value="kadin" checked="on">Kadın</br>
+
+            <hr>
+
+            <input type="checkbox" name="kutu1" checked="on" /><i><u>ZaqZaq</u></i> UareUare. <br /></br>
+
+            <input type="file" name="dosya" />
+
+            <br><br>
+
+            <input type="submit" value="Gönder"> <input type="reset" value="Temizle">
+
+            <br>
+
+            <div style="background-color:aqua;font-size:18px;color:red;font-family:Arial">
+
+                <br><strong><u> Açıklama </u></strong></br>
+
+                <p style="color:black;font-size:20px;font-family:calibri;">
+
+                    Submit,formdaki verileri kabul eder ve yollar.Reset , formdaki veriler temizler.</p>
+
+                <label>Ad Soyad : </label>
+
+                <input type="text" name="adSoyad" required="required"> <br /><br />
+
+                <label>e-Posta : </label>
+
+                <input type="email" name="ePosta" required="required"> <br /><br />
+
+                <label>Doğum Tarihi : </label>
+
+                <input type="date" name="dogumTarihi" required="required"> <br /><br />
+
+                <input type="submit" value="Gönder" />
+
+                <input type="reset" value="Temizle" />
+
+            </div>
+
+            <br>
+
+            <div style="width:70%;background-color:#f8efc2;font-size:18px;color:red;font-family:Acial;"><br>
+
+                <h3 style="text-align:center;">Forum'un Görünümünü Özelleştir</h3>
+
+                <br><strong><u>Açıklama:</u></strong><br>
+
+                <p style="color:black;font-size:20px;font-family:calibri;">
+
+                    Submit,formdaki verileri kabul eder ve yollar.Reset , formdaki veriler temizler.</p>
+
+                <form action="uye.html" method="post">
+
+                    <table border="0">
+
+                        <tr>
+
+                            <td width="150px"><label>AD SOYAD : </label></td>
+
+                            <td><input type="text" name="ad" autofocus"></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td width="150px" <label>E-POSTA: </label></td>
+
+                            <td><input type="text" name="eposta"></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td width="150px" <label>ŞİFRE: </label></td>
+
+                            <td><input type="password" name="parola"></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td width="150px" <label>CİNSİYET: </label></td>
+
+                            <td><input type="radio" name="cinsiyet" value="erkek" checked="on"> Erkek</td>
+
+                            <td><input type="radio" name="cinsiyet" value="kadın" checked="on"> Kadın</td>
+
+                        </tr>
+
+                </form>
+
+                </table>
+
+            </div>
+
+            <div style="width:60%;background-color:#ffc6f4;font-size:20px;font-family:tahoma;">
+
+                <form>
+
+                    <table>
+
+
+
+                        <p>Renk seçin: <input type="color" name="renk"></p>
+
+                        <p>Doğum tarihi: <input type="date" name="dogumtarihi"></p>
+
+                        <p>Doğum günü:<input type="datetime" name="dogumgunu"></p>
+
+                        <p>Ay ve Yıl: <<input type="month" name="ay">
+                        </p>
+
+                        <p>Hafta ve Yıl: <input type="week" name="hafta"></p>
+
+                        <p>Randevu saati: <input type="time" name="randevusaat"></p>
+
+                        <p>Randevu tarihi ve saati: <input type="datetime-local" name="randevutarih"></p>
+
+                        <p>E-posta: <input type="email" name="eposta"></p>
+
+                        <p>Web sayfanız: <input type="url" name="weburl"></p>
+
+                        <p>Sayı (1-9): <input type="sumber" name="sec" min="1" max="9"></p>
+
+                        <p>Parola: <input type="password" name="sifre"></p>
+
+                        <p>Aralık (1-9): <input type="range" name="secim" min="1" max="9"></p>
+
+                        <p>Arama: <input type="search" name="arama"></p>
+
+                        <p>GSM: <input type="tel" name="gsmno"></p>
+                        <br>
+                        <button type="submit" value="Gönder">
+                            <img src="resimler/onay.png" width="50" height="50">
+                        </button>
+                        </td>
+                        <td align="left">
+                            <button type="reset" value="Temizle">
+                                <img src="resimler/reddet.png" width="50" height="50">
+                            </button>
+                            <select name="iller" size="1" align="center">
+                                <option value="plaka54">Sakarya</option>
+                                <option value="plaka06">Ankara</option>
+                                <option value="plaka34">İstanbul</option>
+                            </select>
+                            <select name="aylar" multiple>
+                                <option value="1">Ocak</option>
+                            </select>
+                        </td>
+
+                        </tr>
+
+                    </table>
+
+                </form>
+
+            </div>
+
+</body>
+
+</html>
