@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: fantasy;
+}
+#kutucuk{
+    background-color: brown;
+    color: grey;
+    width: 400px;
+    margin: auto; 
+}
+.kutu1 {
+background-color: lightblue;
+color: orange;
+margin: auto;
+width: 300px;
+border-radius: 20px;
+}
