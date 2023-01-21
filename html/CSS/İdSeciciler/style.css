@@ -1,0 +1,168 @@
+body {
+
+    background-color: #666666;
+
+    text-align: center;
+
+}
+
+
+
+#resim {
+
+    width: 220px;
+
+    height: 130px;
+
+    border-radius: 20px;
+
+    border-style: solid;
+
+    border-color: green;
+
+}
+
+
+
+#resim1 {
+
+    width: 220px;
+
+    height: 130px;
+
+    border-radius: 20px;
+
+    border-style: solid;
+
+    border-color: red;
+
+}
+
+
+
+#baslik {
+
+    margin: auto;
+
+    font-size: 50px;
+
+}
+
+
+
+div {
+
+    display: inline;
+
+    width: 100%;
+
+    font-size: 30px;
+
+    margin: auto;
+
+    text-align: center;
+
+    border:3px solid black;
+
+}
+
+
+
+#kutu1 {
+
+    background-color: tomato;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu2 {
+
+    background-color: teal;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu3 {
+
+    background-color: purple;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu4 {
+
+    background-color: tomato;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu5 {
+
+    background-color: teal;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu6 {
+
+    background-color: purple;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu7 {
+
+    background-color: tomato;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu8 {
+
+    background-color: teal;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu9 {
+
+    background-color: purple;
+
+    border-radius: 20px;
+
+}
+
+
+
+#kutu10 {
+
+    background-color: yellow;
+
+    border-radius: 20px;
+
+}
+

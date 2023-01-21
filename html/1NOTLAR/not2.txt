@@ -1,0 +1,15 @@
+id=	Eşsiz kimliğini belirtir.
+class=	Sınıf adını belirtir.
+style=	CSS kuralları tanımlar.
+title=	Kısa bilgi belirtir.
+lang=	İçerdiği metnin lisanını belirtir.
+dir=	İçerdiği metnin yönünü belirtir.
+summary=	Tablo hakkında özet bilgi belirtir.
+height=	Yüksekliğini belirtir.
+width=	Genişliğini belirtir.
+border=	Kenarlık genişliğini belirtir.
+frame=	Kenarlıkların uygulanacağı kenarları belirtir.
+rules=	Tablo içinde kenarlıkların uygulanma şeklini belirtir.
+cellspacing=	Hücreler arasındaki mesafeyi belirtir.
+cellpadding=	Hücre içi dolgu (padding) genişliğini belirtir.
+İçerik	Tablo içeriğini oluşturan HTML kodlarını belirler.
