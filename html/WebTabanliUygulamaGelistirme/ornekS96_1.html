@@ -1,0 +1,58 @@
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<title> Üyelik </title>
+</head>
+<body> 
+<form>
+<fieldset>
+<legend>Üyelik Bilgileri</legend>
+<label>Ad Soyad : </label>
+<input type="text" name="adSoyad" required="required"> <br/><br/>
+<label>e-Posta : </label>
+<input type="email" name="ePosta" required="required"> <br/><br/>
+<label>Doğum Tarihi : </label>
+<input type="date" name="dogumTarihi" required="required"> <br/><br/>
+<input type="submit" value="Gönder"/>
+<input type="reset" value="Temizle"/>
+</fieldset>
+</form>
+<form>
+<fieldset
+<legend>Yorum Gönder</legend>
+<label>e-Posta:</label>
+<input type="text" tabindex="1"/>
+<label>Yorum:</label>
+<textarea rows="3" cols="20" tabindex="2"></textarea> <br/><br/>
+<input type="submit"value="Gönder"/>
+<input type="reset" value="Temizle"/>
+</fieldset>
+</form>
+<p><strong>Aldıkları puanlar:</strong></p>
+<p><label for="bulent">Bülent:</label>
+<meter id="bulent" min="0" low="40" high="90" max="100" value="55"></meter>50</p>
+<p><label for="umit">Ümit:</label>
+<meter id="umit" min="0" low="40" high="90" max="100" value="100"></meter>100</p>
+<p><label for="fatih">Fatih:</label>
+<meter id="fatih"min="0" low="40" high="90" max="100" value="70"></meter>70</p>
+<p><label for="selcuk">Selçuk:</label>
+<meter id="selcuk" min="0" low="40" high="90" max="100" value="90"></meter>90</p>
+<p><strong>Anketi tamamlama durumu:</strong></p>
+<p><progress id="harun" max="100" value="40"></progress>
+<label for="harun">Harun </label></p>
+<p><progress id="ilhan" max="100" value="20"></progress>
+<label for="ilhan">İlhan</label></p>
+<p><progress id="enes" max="100" value="80"></progress>
+<label for="enes">Enes</label></p>
+<p><progress id="isa" max="100" value="60"></progress>
+<label for="isa">İsa</label></p>
+<p></p><progress id="kadir" max="100" value="50"></progress>
+<label for="kadir">Kadir</label></p>
+<form action="islemyap.html" method="get" autocomplete="on" novalidate>
+<label for="adsoyad">Ad Soyad:</label>
+<input type="text" id="adsoyad" name="adsoyad"></br></br>
+<label for="eposta">e-Posta:</label>
+<input type="text" id="eposta" name="eposta"></br></br>
+<input type="submit">
+</form>     
+</body>

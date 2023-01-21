@@ -1,0 +1,183 @@
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title> FORMLAR </title>
+</head>
+<body>
+<h1>FORM OLUŞTURMA SAYFASI</h1>
+<form>
+<hr>
+USER:<input type="text" name="kullanici"/><br><br>
+PASSWORD: <input type="password" name="sifre"/><hr>
+<h2>Cinsiyet</h2>
+<input type="radio" name="cinsiyet" value="erkek" checked="on"> Erkek<br><br>
+<input type="radio" name="cinsiyet" value="kadin"> Kadın<br><br>
+<input type="radio" name="cinsiyet" value="Özel">Özel<br><br><hr>
+<input type="checkbox" name="kutu1" checked="on"/>HTML<br>
+<input type="checkbox" name="kutu2"/>CSS<br>
+<input type="checkbox" name="kutu3"/>Java Script<br><hr>
+<h3>Sözleşmeyi Kabul Ediyormusunuz?</h3>
+<input type="radio" name="secim"/>Evet
+<input type="radio" name="secim"/>Hayır<hr>
+<input type="file" name="dosya"/><br><br><hr>
+<input type="submit" value="Gönder"> <input type="reset" value="Temizle"><hr>
+</form>
+<div style="background-color:aqua;font-size:18px;color:red;font-family:Arial;">
+<br><strong><u>	Açıklama </u></strong></br>
+<p style="color:black;font-size:20px;font-family:calibri;">
+Sumbit, formdaki verileri kabul eder ve yollar. Reset , formdaki verileri temizler.</p>
+<form action="uye.html" method="post">
+<label>Ad Soyad:</label><input type="text" name="ad" autofocus="autofocus"><br/><br/>
+<label>e-Posta:</label><input type= ><br/><br/>
+<label>Şifre:</label><input type="text" name="eposta"><br/><br/>
+<input type="radio" name="cinsiyet" value="erkek" checked="on"> Erkek <br/><br/>
+<input type="radio" name="cinsiyet" value="kadin"> Kadın<br/><br/>
+<input type="submit" value="Gönder"> <input type="reset" value="Temizle">
+</form>
+</div>
+<div style="width:70%;background-color:#f8efc2;font-size:18px;color:red;font-family:Acial;"><br>
+<h3 style="text-align:center;">FORM'UN GÖRÜNÜMÜNÜ ÖZELLEŞTİRME</h3>
+<br><strong><u>AÇIKLAMA :</u></strong><br>
+<p style="color:black;font-size:20px;font-family:calibri;">
+Sumbit, formdaki verileri kabul eder ve yollar. Reset , formdaki verileri temizler.
+</p>
+<form>
+<table border="0">
+<tr>
+<tr height="50">
+<td width="150px"><label>AD SOYAD :</label></td>
+<td><input type="text" name="ad" autofocus="autofocus"></td>
+</tr>
+<tr>
+<tr height="50">
+<td width="150px"><label>E-POSTA :</label></td>
+<td><input type="text" name="eposta"></td>
+</tr>
+<tr>
+<tr height="50">
+<td width="150px"><label>ŞİFRE :</label></td>
+<td><input type="text" name="password"></td>
+</tr>
+<tr>
+<tr height="50">
+<td width="150px"><label>CİNSİYET :</label></td>
+<td><input type="radio" name="cinsiyet" value="erkek" checked="on"> Erkek</td>
+<td><input type="radio" name="cinsiyet" value="kadın" checked="on"> Kadın</td>
+</tr>
+</table>
+</form>
+</div>
+<div style="width:60%;background-color:#ffc6f4;font-size:20px;font-family:Tahoma;">
+<form action="uye.html" method="post">
+<table>  
+<tr height="50">
+<td width="150" align="right">Renk Seçin :</td>
+<td align="left"><input type="color" name="renk"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Doğum tarihi :</td>
+<td><input type="date" name="dogumtarihi"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Doğum günü :</td>
+<td><input type="datetime" name="dogumgunu"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Ay ve Yıl :</td>
+<td><input type="month" name="ay"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Hafta ve Yıl :</td>
+<td><input type="week" name="hafta"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Randevu saati :</td>
+<td><input type="time" name="randevusaat"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Randevu tarihi ve saati :</td>
+<td><input type="datetime-local" name="randevutarih"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">E-posta :</td>
+<td><input type="email-local" name="eposta"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Web sayfanız :</td>
+<td><input type="url" name="weburl"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Sayı (1-9) :</td>
+<td><input type="sumber" name="sec" min="1" max="9"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Parola :</td>
+<td><input type="password" name="sifre"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Aralık (1-9) :</td>
+<td><input type="range" name="secim" min="1" max="9"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">Arama :</td>
+<td><input type="search" name="arama"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right">GSM :</td>
+<td><input type="tel" name="gsmno"></td>
+</tr>
+<tr height="50">
+<td width="150" align="right"></td>
+<td align="left">
+<select name="iller" size="1">
+<option value="plaka54">Sakarya</option>
+<option value="plaka06">Ankara</option>
+<option value="plaka34">İstanbul</option>
+</select>
+<tr height="50">
+<td width="150" align="right"></td>
+<td align="left">
+<select name="aylar" multiple>
+<option value="1">Ocak</option>
+<option value="2">Şubat</option>
+<option value="3">Mart</option>
+<option value="4">Nisan</option>
+<option value="5">Mayıs</option>
+<option value="6">Haziran</option>
+</select>
+<tr height="50">
+<td width="150" align="right"></td>
+<td align="left">
+<select name="riskharitasi" multiple>
+<option selected value="none">Hiçbiri</option>
+<optgroup label="Kırmızı">
+<option value="k1">Sakarya</option>
+<option value="k2">Konya</option>
+<option value="k3">Balıkesir</option>
+</optgroup>
+<optgroup label="Sarı">
+<option value="s1">Eskişehir</option>
+<option value="s2">Kırşehir</option>
+<option value="s3">Yozgat</option>
+</optgroup>
+<optgroup label="Turuncu">
+<option value="t1">Artvin</option>
+<option value="t2">Çanakkale</option>
+<option value="t3">Kütahya</option>
+</optgroup>
+<tr height="50">
+<td width="150" align="right">
+	<button type="sumbit" value="Gönder">
+		<img src="gonder.jpg" width="50" height="50">
+	</button>
+</td>
+<td align="left">
+	<button type="reset" value="temizle">
+		<img src="temizle.jpg" width="50" height="50">
+	</button>
+	
+</table>
+</form>
+</div>
+</body>
+</html>

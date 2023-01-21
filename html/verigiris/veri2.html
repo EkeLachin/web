@@ -1,0 +1,40 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <center>
+            <form action="islem1.html" autocomplete="on">
+            <table border="10" width="285">
+        <tr>
+            <td>AD</td>
+            <td><input type="text" placeholder="İsminizi buraya yaz."></td>
+            </tr>
+            <tr>
+                <td>SOYAD</td>
+                <td><input type="text" placeholder="Soyisminizi buraya yaz."></td>
+            </tr>
+            <tr>
+                <td>DOĞUM TARİHİ</td>
+                <td><input type="date" id="tarihmin" name="tarihmin" min="2021-05-01"></td>
+            </tr>
+            <tr>
+                <td>E-POSTA</td>
+                <td><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder ="Eposta"></td>
+            </tr>
+            <td>PAROLA</td>
+            <td><input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder = "Şifre"></td>
+            </tr>
+                        <tr>
+                                <td>WEB ADRESİ</td>
+                                <td><input type="url" pattern="https?://.+" placeholder="http:// dâhil edin"></td>
+                        </tr>
+                    <tr>
+                <td bgcolor="green"><center><input type="submit" value="Gönder"></td>
+                <td bgcolor="red"><center><input type="reset" value="Temizle"></td>
+                    </tr>
+        </table>
+            </form>
+    </center>
+    </body>
+</html>
